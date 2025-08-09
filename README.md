@@ -109,44 +109,6 @@ go get github.com/sirupsen/logrus
 go get golang.org/x/crypto/bcrypt
 ```
 
-Atau jika kamu ingin lebih ringkas dan sesuai gaya banyak proyek modern Golang yang menggunakan `go mod`, kamu bisa menulis seperti ini:
-
-````markdown
-## 📦 Dependencies
-
-Make sure you have Go modules enabled (`go mod init`) and install the required packages:
-
-```bash
-go get github.com/gin-gonic/gin
-go get gorm.io/gorm
-go get gorm.io/driver/mysql
-go get github.com/golang-jwt/jwt/v5
-go get github.com/sirupsen/logrus
-go get golang.org/x/crypto/bcrypt
-```
-````
-
-If your project already uses `go.mod`, you can simply write:
-
-````markdown
-## 📦 Dependencies
-
-This project uses the following Go modules:
-
-- `github.com/gin-gonic/gin`
-- `gorm.io/gorm`
-- `gorm.io/driver/mysql`
-- `github.com/golang-jwt/jwt/v5`
-- `github.com/sirupsen/logrus`
-- `golang.org/x/crypto/bcrypt`
-
-To install all dependencies:
-
-```bash
-go mod tidy
-```
-````
-
 ## 🔧 Configuration
 
 - Make sure your MySQL server is running.
