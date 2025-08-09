@@ -95,7 +95,6 @@ Returns JWT token if login is successful.
 
 ## 🚀 Running the Project
 
-### 📦 Installation
 
 ## 📦 Installation
 
@@ -151,7 +150,6 @@ go mod tidy
 ## 🔧 Configuration
 
 - Make sure your MySQL server is running.
-- Configure your `.env` file or set the database connection string directly in the code.
 - Create an `uploads/` directory to store uploaded images.
 
 ## ▶️ Run the Server
@@ -180,10 +178,6 @@ http://localhost:8000
 
 ```http
 Authorization: Bearer <token>
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ```
 
